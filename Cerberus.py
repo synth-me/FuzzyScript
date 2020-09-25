@@ -262,6 +262,7 @@ start_cloud{
 
 """
 
+# here we get an example of an well done sample of code #
 
 editor.insert('0.0',text_input_0)
 
