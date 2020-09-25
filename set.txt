@@ -1,0 +1,25 @@
+custom::={
+
+            names::set_0,set_1,set_2
+    
+            itens::a,b,c,f
+
+            def::funcc,funcc_2
+
+}end_custom
+
+start_cloud{ 
+
+        name::= set_0 { iten::= a ; membership::= ( funcc ) ; }end 
+
+        name::= set_1 { iten::= b ; membership::= ( funcc_2 ) ; }end 
+    
+        name::= set_2 { iten::= b ; membership::= ( funcc ) ; }end 
+
+    active=> { a <m> set_0 }end
+
+    active=> { b <m> set_0 }end
+
+    active=> { f <m> set_1 }end
+
+}end_cloud
